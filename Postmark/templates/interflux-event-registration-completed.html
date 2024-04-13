@@ -1,0 +1,56 @@
+<h1>Hello {{first_name}}!</h1>
+<p>Thank you for confirming your attendance at {{ event_name }}. We’re looking forward seeing you there.</p>
+<p>For reference, these are the event details:</p>
+<table class="attributes" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="attributes_content">
+      <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="attributes_item"><strong>Event name:</strong> {{event_name}}</td>
+        </tr>
+        <tr>
+          <td class="attributes_item"><strong>Dates:</strong> {{event_dates}}</td>
+        </tr>
+        <tr>
+          <td class="attributes_item"><strong>Location:</strong> {{event_location}}</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<p>If you have any question, don't hesitate to contact us:</p>
+
+<!-- Action -->
+<table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center">
+      <!-- Border based button https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+                  <a href="mailto:ask@interflux.com" class="button button--" target="_blank">Contact us</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>Best regards,</p>
+
+<p>Interflux Electronics</p>
+
+<!--<table class="body-sub">-->
+<!--  <tr>-->
+<!--    <td>-->
+<!--      <p class="sub">If you’re having trouble with the button above, copy and paste the URL below into your web browser.</p>-->
+<!--      <p class="sub">{{action_url}}</p>-->
+<!--    </td>-->
+<!--  </tr>-->
+<!--</table>-->
